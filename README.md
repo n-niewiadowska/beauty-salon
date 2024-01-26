@@ -1,13 +1,12 @@
 # Beauty Salon Website
 
-The website is a full-stack university project for *Front-end Development*, *Databases II* and *Web Protocols* developed in December 2023 and January 2024. 
-CSS styles are still in the process of upgrading, but everything else is finished.
+The website is a full-stack university project for *Front-end Development*, *Databases II* and *Web Protocols* with Sentry implemented as a task for Meet Dynatrace Program. It was developed in December 2023 and January 2024.
 
 ### Tech stack
 
 `Figma`  `HTML`  `CSS`  `React/Next`  `TypeScript`
 
-`JavaScript`  `Node`  `Express`  `MongoDB`  `MQTT Broker`
+`JavaScript`  `Node`  `Express`  `MongoDB`  `MQTT Broker` `Sentry`
 
 ### Description
 
@@ -24,24 +23,16 @@ It also has:
 
 - front-end components for picking date, showing statistics etc.
 
+- observability - traces and errors handling
+
 ### Run
 
 1. Install HiveMQ Broker (from [here](https://github.com/hivemq/hivemq-community-edition/releases))
 
-2. Install dependencies
-
-For client:
-
-```sh
-cd client
-npm install create-next-app formik yup mqtt
-```
-
-For server:
-```sh
-cd server
-npm install express cors dotenv bcryptjs mqtt mongoose mongoose-type-email body-parser cookie-parser jsonwebtoken
-```
+2. Install dependencies (`npm install` in client/server respective directories):
+   - for client: `@geist-ui/react @types/react-datepicker axios create-next-app formik mqtt next react react-datepicker react-dom react-icons react-rating-stars-component recharts yup`
+   - for server: `bcryptjs body-parser cookie-parser cors dotenv express fs jsonwebtoken mongoose mongoose-type-email mqtt`
+   - additionally, for functioning Sentry on the server: `npm install --save @sentry/node @sentry/profiling-node`
 
 3. In server, create `config.env` file and fill the fields below with your own MongoDB connection, server port and JWT token (for user authentication):
 
@@ -51,11 +42,13 @@ PORT=
 JWT_TOKEN=
 ```
 
-4. Replace HiveMQ configuration (`/conf/config.xml`) with `/server/config.xml`.
+4. Replace HiveMQ configuration (`/conf/config.xml`) with `./config.xml`.
 
 5. Add starting data to the database (examples in `/start-data`).
+
+6. Use `npx @sentry/wizard@latest -i sourcemaps` to configure Sentry for the project.
                                                                                                                               
-6. Run broker (`run.sh` on Linux and `run.bat` on Windows).
+7. Run broker (`run.sh` on Linux and `run.bat` on Windows).
 
 6. Run server with `node server.js` or `npm start` and client with `npm run dev` (in their directories).
 
