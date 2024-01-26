@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Jenna",
+    "surname": "Smith",
+    "email": "jennasmith@gmail.com",
+    "nickname": "admin",
+    "password": "732adminPass991!",
+    "role": "admin"
+  },
+  {
+    "name": "Loraine",
+    "surname": "Parrot",
+    "email": "lorrraine@gmail.com",
+    "nickname": "parrotl2002",
+    "password": "mher480!Wx_0",
+    "role": "user"
+  },
+  {
+    "name": "Ada",
+    "surname": "Shelby",
+    "email": "shelbyfamily@gmail.com",
+    "nickname": "iamnotpolly",
+    "password": "Arthur!t0mmyJohn",
+    "role": "user"
+  },
+  {
+    "name": "Robert",
+    "surname": "Connors",
+    "email": "r.connors@gmail.com",
+    "nickname": "robertconnors",
+    "password": "85X1b--ewZ/RM2>",
+    "role": "user"
+  },
+  {
+    "name": "Amber",
+    "surname": "Holiday",
+    "email": "ambergirl44@wp.pl",
+    "nickname": "amberholiday",
+    "password": "Amber.1234",
+    "role": "user"
+  }
+]

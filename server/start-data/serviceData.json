@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Deep cleansing",
+    "category": "Facial treatments",
+    "description": "A thorough cleansing using steam, exfoliation, and extraction to remove impurities and unclog pores.",
+    "price": 100,
+    "lengthInMinutes": 70,
+    "availability": true
+  },
+  {
+    "name": "Anti-aging",
+    "category": "Facial treatments",
+    "description": "Focuses on reducing fine lines, wrinkles, and improving skin elasticity using specialized serums, masks, and treatments.",
+    "price": 150,
+    "lengthInMinutes": 90,
+    "availability": true
+  },
+  {
+    "name": "Microdermabrasion",
+    "category": "Facial treatments",
+    "description": "Mechanical exfoliation technique to remove dead skin cells, revealing smoother and more even-toned skin.",
+    "price": 180,
+    "lengthInMinutes": 45,
+    "availability": true
+  },
+  {
+    "name": "Microcurrent",
+    "category": "Facial treatments",
+    "description": "Using low-level electrical currents to stimulate facial muscles, aiming to tighten and tone the skin.",
+    "price": 220,
+    "lengthInMinutes": 90,
+    "availability": false
+  },
+  {
+    "name": "Basic manicure",
+    "category": "Manicure and pedicure",
+    "description": "Includes nail shaping, cuticle care, hand massage, and polish.",
+    "price": 25,
+    "lengthInMinutes": 35,
+    "availability": true
+  },
+  {
+    "name": "Gel manicure",
+    "category": "Manicure and pedicure",
+    "description": "Involves longer-lasting gel polish cured with UV or LED light.",
+    "price": 40,
+    "lengthInMinutes": 50,
+    "availability": true
+  },
+  {
+    "name": "Basic pedicure",
+    "category": "Manicure and pedicure",
+    "description": "Includes nail shaping, cuticle care, foot soak, massage, and polish. ",
+    "price": 30,
+    "lengthInMinutes": 50,
+    "availability": true
+  },
+  {
+    "name": "Spa pedicure",
+    "category": "Manicure and pedicure",
+    "description": "Offers additional treatments like exfoliation, mask, and longer massage.",
+    "price": 60,
+    "lengthInMinutes": 90,
+    "availability": true
+  },
+  {
+    "name": "Deep Tissue Massage",
+    "category": "Massage",
+    "description": "Focuses on deeper layers of muscles and connective tissue to address chronic pain or tension. It involves more pressure and targeted techniques.",
+    "price": 100,
+    "lengthInMinutes": 60,
+    "availability": true
+  },
+  {
+    "name": "Aromatherapy Massage",
+    "category": "Massage",
+    "description": "Uses essential oils to enhance the massage experience and promote relaxation or address specific concerns like stress or insomnia.",
+    "price": 90,
+    "lengthInMinutes": 60,
+    "availability": true
+  },
+  {
+    "name": "Reflexology",
+    "category": "Massage",
+    "description": "Involves applying pressure to specific points on the feet, hands, or ears to stimulate corresponding organs and systems in the body.",
+    "price": 50,
+    "lengthInMinutes": 30,
+    "availability": false
+  },
+  {
+    "name": "Swedish Massage",
+    "category": "Massage",
+    "description": "A gentle, relaxing massage using long strokes, kneading, and circular movements to promote relaxation and alleviate muscle tension.",
+    "price": 70,
+    "lengthInMinutes": 60,
+    "availability": true
+  },
+  {
+    "name": "Waxing",
+    "category": "Hair removal",
+    "description": "Involves applying warm wax to the skin and then removing it along with the hair.",
+    "price": 50,
+    "lengthInMinutes": 40,
+    "availability": true
+  },
+  {
+    "name": "Sugaring",
+    "category": "Hair removal",
+    "description": "Uses a sticky paste made from sugar, lemon, and water to remove hair.",
+    "price": 50,
+    "lengthInMinutes": 40,
+    "availability": false
+  },
+  {
+    "name": "Laser Hair Removal",
+    "category": "Hair removal",
+    "description": "Utilizes laser technology to target hair follicles and inhibit hair growth over multiple sessions.",
+    "price": 300,
+    "lengthInMinutes": 30,
+    "availability": true
+  },
+  {
+    "name": "Electrolysis",
+    "category": "Hair removal",
+    "description": "Involves the use of electric currents to destroy individual hair follicles permanently.",
+    "price": 60,
+    "lengthInMinutes": 50,
+    "availability": false
+  },
+  {
+    "name": "Basic make-up",
+    "category": "Make up",
+    "description": "Minimalistic and natural make-up to highlight your true beauty.",
+    "price": 50,
+    "lengthInMinutes": 45,
+    "availability": true
+  },
+  {
+    "name": "Electrolysis",
+    "category": "Hair removal",
+    "description": "Extravagant make-up that shows the wild side of you. Perfect for a ball or other big events.",
+    "price": 100,
+    "lengthInMinutes": 110,
+    "availability": true
+  }
+]
