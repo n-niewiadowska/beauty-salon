@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Kaisei Decol";
+  src: url("/fonts/KaiseiDecol-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --light-blue: #9CBAE7;
+  --darker-blue: #617CA6;
+  --frame-decor-gradient: linear-gradient(90deg, rgba(36, 36, 36, 1) 0%, rgba(186, 186, 186, 1) 51%, rgba(51, 51, 51, 1) 100%);
+  --colored-bg: #F4F6FC;
+}
+
+body {
+  font-family: "Kaisei Decol";
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 2rem 5rem;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+button, a {
+  cursor: pointer;
+  font-family: "Kaisei Decol";
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: var(--light-blue);
+  border: 1px solid var(--darker-blue);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+input, select {
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+  font-family: "Kaisei Decol";
+  padding: 0.2rem;
+}
+
+.decor-frame {
+  border: 2px solid;
+  border-image: var(--frame-decor-gradient) 1;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.main-menu div {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.normal-link {
+  color: var(--darker-blue);
+}
+
+.login-link {
+  background-color: var(--light-blue);
+  border-radius: 10%;
+  color: white;
+  padding: 0 0.3rem;
+}
+
+.signup-link {
+  background-color: var(--darker-blue);
+  border-radius: 10%;
+  color: white;
+  padding: 0 0.3rem;
+}
+
+.error-msg {
+  color: rgb(119, 30, 30);
+  display: block;
+  font-size: 0.7rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.logs-clearing {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}

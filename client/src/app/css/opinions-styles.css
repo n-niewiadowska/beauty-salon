@@ -1,0 +1,89 @@
+@import url("./styles.css");
+
+.decor-frame {
+  background-color: var(--colored-bg);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  padding: 3rem;
+}
+
+.opinion-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-desc {
+  text-align: center;
+}
+
+.form-field-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field-stars {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text-desc {
+  width: 15rem;
+}
+
+button {
+  color: white;
+  background-color: var(--light-blue);
+  border: 1px solid var(--darker-blue);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  font-family: inherit;
+}
+
+.general-rating {
+  display: flex;
+  justify-content: center;
+}
+
+.single-star {
+  font-size: 1.7rem;
+  color: #D4AE4C;
+}
+
+hr {
+  width: 15rem;
+  margin-left: 0;
+}
+
+.opinion-body {
+  text-align: left;
+}
+
+.opinion-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.stars {
+  color: #D4AE4C;
+}
+
+.opinion-date {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+.opinion-desc {
+  margin-top: 0;
+}

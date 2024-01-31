@@ -1,0 +1,27 @@
+.main-welcome-page {
+  background-color: var(--colored-bg);
+  display: flex;
+  gap: 2rem;
+}
+
+.decor-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  padding: 1rem;
+}
+
+.description {
+  text-align: center;
+}
+
+.socials a {
+  margin-right: 1rem;
+}
+
+.socials a:last-child {
+  margin-right: 0;
+}

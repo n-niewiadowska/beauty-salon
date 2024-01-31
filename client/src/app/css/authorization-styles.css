@@ -1,0 +1,27 @@
+@import url("./styles.css");
+
+.decor-frame {
+  background-color: var(--colored-bg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-left: 2rem;
+  text-align: center;
+}
+
+.form-field-checkbox {
+  padding-top: 2rem;
+}
+
+label {
+  padding: 1rem;
+}

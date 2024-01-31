@@ -1,0 +1,27 @@
+@import url("./styles.css");
+
+.statistics {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+}
+
+.user {
+  border-left: 1px solid var(--light-blue);
+  border-bottom: 1px solid var(--light-blue);
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.stats-table {
+  border-collapse: collapse;
+}
+
+.stats-table td, .stats-table th {
+  border: 1px solid var(--light-blue);
+  padding: 1rem;
+  text-align: center;
+}

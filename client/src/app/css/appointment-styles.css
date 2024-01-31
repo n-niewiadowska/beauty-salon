@@ -1,0 +1,55 @@
+@import url("./styles.css");
+
+.sort-appointments label {
+  font-weight: bold;
+  padding-right: 2rem;
+}
+
+.appointments {
+  margin: 2rem;
+}
+
+.appointments-head {
+  text-align: center;
+}
+
+.single-appointment {
+  background-color: var(--colored-bg);
+  border: 1px solid var(--light-blue);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.state-management {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.state-management p {
+  color: rgb(26, 161, 105);
+  font-size: 1.5rem;
+}
+
+.details {
+  padding: 2rem;
+}
+
+.appointment-datepicker {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.appointment-datepicker p {
+  font-weight: bold;
+}
+
+.booking-form {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
