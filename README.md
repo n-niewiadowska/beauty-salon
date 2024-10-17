@@ -4,7 +4,7 @@ The website is a full-stack university project for *Front-end Development*, *Dat
 
 ### Tech stack
 
-`Figma`  `HTML`  `CSS`  `React/Next`  `TypeScript`
+`Figma`  `HTML`  `CSS`  `React/Next.js`  `TypeScript`
 
 `JavaScript`  `Node`  `Express`  `MongoDB`  `MQTT Broker` `Sentry`
 
@@ -28,10 +28,7 @@ It also has:
 
 1. Install HiveMQ Broker (from [here](https://github.com/hivemq/hivemq-community-edition/releases))
 
-2. Install dependencies (`npm install` in client/server respective directories):
-   - for client: `@geist-ui/react @types/react-datepicker axios formik mqtt next react react-datepicker react-dom react-icons react-rating-stars-component recharts yup`
-   - for server: `bcryptjs body-parser cookie-parser cors dotenv express fs jsonwebtoken mongoose mongoose-type-email mqtt`
-   - additionally, for functioning Sentry on the server: `npm install --save @sentry/node @sentry/profiling-node`
+2. Install dependencies (`npm install` in client/server respective directories)
 
 3. In server, create `config.env` file and fill the fields below with your own MongoDB connection, server port and JWT token (for user authentication):
 
@@ -47,7 +44,7 @@ JWT_TOKEN=
 
 6. Use `npx @sentry/wizard@latest -i sourcemaps` to configure Sentry for the project.
 
-7. Run broker (`run.sh` on Linux and `run.bat` on Windows).
+7. Run Broker (`run.sh` on Linux and `run.bat` on Windows).
 
 6. Run server with `node server.js` or `npm start` and client with `npm run dev` (in their directories).
 
